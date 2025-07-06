@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather_Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jost:ital@1&family=Rubik:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="input">
+            <input type="text" id="city_name_input" placeholder="enter your city" spellcheck="false" />
+            <div class="search_bar">
+                <i class="ri-search-2-line" id="search"></i>
+            </div>
+        </div>
+        <div class="error_output"></div>
+        <div class="weather_card">
+            <div class="data-1">
+                <div class="data-1-child" id="w_img">
+                    <img id="weImg" src="images/clear.png" alt="" />
+                </div>
+                <div class="data-1-child" id="temp"></div>
+                <div class="data-1-child" id="city_name"></div>
+            </div>
+            <div class="data-2">
+                <div class="humidity"></div>
+                <div class="wind"></div>
+            </div>
+            <div class="inner-data">
+                <p>Humidity</p>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

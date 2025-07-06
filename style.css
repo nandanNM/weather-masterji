@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-family: "Jost", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.card {
+    background-color: #fa8bff;
+    background-image: linear-gradient(45deg,
+            #fa8bff 0%,
+            #2bd2ff 52%,
+            #2bff88 90%);
+
+    padding: 30px;
+    border-radius: 18px;
+    width: 400px;
+    transition: all ease 0.8s;
+}
+
+.card .input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .input #city_name_input {
+    height: 50px;
+    width: 70%;
+    text-align: start;
+    padding: 23px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #ffff;
+    outline: 0;
+    flex: 1;
+}
+
+.card .input .search_bar {
+    height: 50px;
+    width: 50px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.card .input .search_bar i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #212121;
+    transition: all linear 0.3;
+}
+
+.card .input i:hover {
+    scale: 1.5;
+}
+
+.error_output {
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+    margin: 10px;
+    text-align: start;
+    padding: 5px;
+}
+
+.error_output h3 {
+    color: rgb(224, 28, 28);
+}
+
+.weather_card {
+    width: 100%;
+    height: 400px;
+    /* background-color: #4158D0; */
+    display: none;
+}
+
+.data-1 {
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+}
+
+.data-1-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#w_img {
+    width: 100%;
+    height: 60%;
+    /* background-color: #FFCC70; */
+}
+
+#w_img i {
+    font-size: 165px;
+}
+
+#temp {
+    height: 25%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#temp h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#city-name h1 {
+    font-size: 2.5rem;
+}
+
+.data-2 {
+    height: 10%;
+    margin-top: 25px;
+    width: 100%;
+    /* background-color: #4158D0; */
+    display: flex;
+    /* display: block; */
+}
+
+.humidity {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.wind {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.humidity img {
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.humidity h2 {
+    padding-left: 12px;
+}
+
+.wind i {
+    font-size: 40px;
+    padding: 5px;
+}
+
+.inner-data {
+    height: 5%;
+    /* background-color: #FFCC70; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inner-data p {
+    font-size: 1rem;
+}

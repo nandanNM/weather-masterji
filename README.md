@@ -25,10 +25,4 @@ Weather_Project is a simple and elegant web application that allows users to che
 - Click the search icon or press Enter.
 - View the current weather details displayed on the card.
 
-## Screenshots
 
-![Weather_Project Screenshot](images/screenshot.png)
-
-## License
-
-This project is licensed under the MIT License.
